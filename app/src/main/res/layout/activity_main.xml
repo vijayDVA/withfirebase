@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress DeprecatedClassUsageInspection -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/Base.V21.Theme.AppCompat.Light"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign"
+    android:gravity="center"
+    tools:context="com.example.withfirebase.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints=""
+                android:background="@drawable/edirtext"
+                android:hint="@string/email_txt"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edirtext"
+                android:hint="@string/password_txt"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColorHint="@android:color/white" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edirtext"
+                android:text="@string/login_txt"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="clck"
+                android:padding="7dp"
+                android:text="@string/don_t_have_an_account_sign_up_here"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+

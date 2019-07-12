@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fb</string>
+    <string name="login">LogIN</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account? Sign up here!</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="email_txt">Email:</string>
+    <string name="password_txt">Password:</string>
+    <string name="already_have_an_account_login_here">Already have an account?Login here</string>
+    <string name="registration">Registration</string>
+    <string name="not_possible">not possible</string>
+    <string name="title">Title</string>
+    <string name="note">note</string>
+    <string name="add_your_daily_task">Add Your Daily Task</string>
+    <string name="_9_september">9 september</string>
+    <string name="_note">Note</string>
+    <string name="logout">Logout</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+</resources>

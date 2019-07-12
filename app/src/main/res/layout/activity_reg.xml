@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress DeprecatedClassUsageInspection -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.withfirebase.RegActivity"
+    android:background="@drawable/backdesign">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/registration"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/email_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints=""
+                android:background="@drawable/edirtext"
+                android:hint="@string/email_txt"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="@android:color/white"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints=""
+                android:background="@drawable/edirtext"
+                android:hint="@string/password_txt"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColorHint="@android:color/white"
+                tools:targetApi="o" />
+
+            <Button
+                android:id="@+id/reg_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edirtext"
+                android:onClick="btnclk"
+                android:text="@string/registration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/login_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="clck2"
+                android:padding="7dp"
+                android:text="@string/already_have_an_account_login_here"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
